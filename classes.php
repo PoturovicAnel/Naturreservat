@@ -36,7 +36,7 @@
                 print " Raaaawwwrrrr";
             }
             public function getImage() {
-                print "<img src='tiger.jpg'>";
+                print "<img src='tiger.jpg' onclick='generateName()'>";
             }   
         }
        class Giraff extends Animal {
@@ -51,7 +51,7 @@
                 print " Giiirrraff";
             }
             public function getImage() {
-                print "<img src='giraff.jpg'>";
+                print "<img src='giraff.jpg' onclick='generateName()'>";
             }   
         }
        class Cocos extends Animal {
@@ -66,7 +66,7 @@
                 print " CoCOOCOCOCOCOCO Nuts";
             }
             public function getImage() {
-                print "<img src='coco.jpg'>";
+                print "<img src='coco.jpg'onclick='generateName()'>";
             }   
         }
   
